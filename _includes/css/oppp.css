@@ -7,7 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #{{ site.data.template.color.secondary-dark }};
+    color: #{{ site.data.template.color.primary-white }};
 }
 
 body,
@@ -21,7 +21,7 @@ html {
 }
 
 .text-primary {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.primary-white }};
 }
 
 p {
@@ -59,7 +59,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.primary-white }};
     font-weight: 700;
 }
 
@@ -415,6 +415,7 @@ section#services .span_4 .column {
 }
 section#services .span_5 {
     width: 33.3333%;
+    color: white !important;
   }
 section#services .p {
     font-size: 30px;
