@@ -1,16 +1,68 @@
 <!-- Services Section -->
-    <section id="services" class="bg-smokier-black">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">That I Offer</h3>
-                </div>
+<style>
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.row {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    padding: 0 15px;
+}
+
+.span_4 {
+    width: 33.3333%;
+}
+.span_5 {
+    width: 33.3333%;
+}
+</style>
+        <section id="about" class="bg-smokier-black">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <h2 class="section-heading">Services</h2>
+                      <h3 class="section-subheading text-muted">That I Offer.</h3>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="row clearfix">
+                    <div class="span_4 column">
+                    </br>
+                      <h4 class="text-center">Quote</h3>
+                      </br>
+                      <p class="verse text-center">He has made everything beautiful in its time. Also, he has put eternity into man's heart, yet so that he cannot find out what God has done from the beginning to the end.</p>
+                      <p align="right">~ Ecclesiastes 3:11</b>
+                    </div>
+                  <div class="span_5 column">
+                      <div class="avatar-image">
+                      <img class="img-centered img-responsive" src="img/about/smallprofpic.jpg" alt="" height="1000" width="1000">
+                      </div>
+                  </div>
+                  <div class="span_4 column">
+            3
+                  </div>
+    </div>
+    <!-- -->
+
             </div>
-            <div class="row image-gallery">
-              {% include service-gallery.html folder="/img/services" %}
-
-
-        </div>
-      </div>
-    </section>
+          </div>
