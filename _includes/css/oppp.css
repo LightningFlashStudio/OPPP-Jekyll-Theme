@@ -366,10 +366,62 @@ section h3.section-subheading {
         padding: 150px 0;
     }
 }
+/* About Page Begin*/
+section#services *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section#services .clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+section#services .clearfix { display: inline-block; }
+section#services * html .clearfix { height: 1%; }
+section#services .clearfix { display: block; }
+
+section#services .row {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+section#services .column {
+    float: left;
+    padding: 0 15px;
+}
+
+section#services .span_4 {
+    width: 33.3333%;
+    background-color: #fff;
+}
+section#services .span_4 .column {
+    width: 1000px;
+    height: 1000px;
+    background-color: #fff;
+}
+section#services .span_5 {
+    width: 33.3333%;
+  }
+section#services .p {
+    font-size: 30px;
+}
+/* About Page End*/
+#services .service-heading {
+    margin: 15px 0;
+    text-transform: none;
+    color: #fff !important;
+}
 
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    color: #fff !important;
 }
 
 #portfolio .portfolio-item {
