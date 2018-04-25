@@ -381,7 +381,7 @@ section#services .clearfix:after {
      clear: both;
      height: 0;
      }
-     
+
 section#services .clearfix { display: inline-block; }
 section#services * html .clearfix { height: 1%; }
 section#services .clearfix { display: block; }
