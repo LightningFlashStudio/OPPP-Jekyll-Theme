@@ -10,6 +10,12 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+body,
+html {
+  height: 100% !important;
+  width: 100%;
+  margin: 0;
+}
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
@@ -274,15 +280,16 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    height: 800px !important;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('/img/header-bg.jpg');
+    background-image: url("/img/header-bg.jp");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover*;
+    background-size: cover !important;
     -o-background-size: cover;
 }
 
@@ -903,7 +910,7 @@ section#about .p {
 
 section#contact {
     background-color: #222;
-    background-image: url('/img/map-image.png');
+    background-image: url("/img/map-image.png");
     background-position: center;
     background-repeat: no-repeat;
 }
